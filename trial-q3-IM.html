@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>       
+        <title>Indian Mythology</title>
+    </head>
+    <script src="imyth.js"></script>
+    <body>
+        <form>
+            <div>
+                <!--p tag is for paragraph-->
+                <p>How many children did Sita give birth to?</p>            
+            </div>     
+            
+            <div id='Q1'>            
+                <!-- name field in input tag is same Q1 for all inputs so they form a group
+                . When they form a group selecting one deselects others automatically-->
+                <input type="radio" name="Q1" id="1A" value="A">
+                <label for="1A">A. 2</label>
+                <input type="radio" name="Q1" id="1B" value="B">
+                <label for="1B">B. 1</label>
+                <input type="radio" name="Q1" id="1C" value="C">
+                <label for="1C">C. 0</label>
+                <input type="radio" name="Q1" id="1D" value="D">
+                <label for="1D">D. 3</label>
+            </div>
+            <br/>
+            <div>        
+                <button type="button" onclick="validateQ1()">Submit</button>
+            </div>
+        </form>
+        
+        <p id="result"></p>   
+<script defer src="./trial3-q3-javafile.js"></script>        
+     
+ 
+    </body>
+</html>

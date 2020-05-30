@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>       
+        <title>Indian Mythology</title>
+    </head>
+    <script src="imyth.js"></script>
+    <body>
+        <form>
+            <div>
+                <!--p tag is for paragraph-->
+                <p>Who poisoned Bhima during their younger years?</p>            
+            </div>     
+            
+            <div id='Q1'>            
+                <!-- name field in input tag is same Q1 for all inputs so they form a group
+                . When they form a group selecting one deselects others automatically-->
+                <input type="radio" name="Q1" id="1A" value="A">
+                <label for="1A">A. Dushasana</label>
+                <input type="radio" name="Q1" id="1B" value="B">
+                <label for="1B">B. Shakuni</label>
+                <input type="radio" name="Q1" id="1C" value="C">
+                <label for="1C">C. Vikarna</label>
+                <input type="radio" name="Q1" id="1D" value="D">
+                <label for="1D">D. Duryodhana</label>
+            </div>
+            <br/>
+            <div>        
+                <button type="button" onclick="validateQ1()">Submit</button>
+            </div>
+        </form>
+        
+        <p id="result"></p>   
+<script defer src="./gmythjava.js"></script>        
+        <a href="trial-q2-IM.html" class="next">Next &raquo;</a>
+
+    </body>
+</html>
