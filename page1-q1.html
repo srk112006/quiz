@@ -1,41 +1,39 @@
 
 <!DOCTYPE html>
-<style>
-div {
-  background-image: url('imbg.jpg');
-}
-</style>
-<style>
-div.a {
-  text-align: center;
-}
-
 <html lang="en">
     <head>       
         <title>Indian Mythology</title>
     </head>
-  <div class = "a">
     <script src="imyth.js"></script>
     <body>
         <form>
+
             <div>
+
+
                 <!--p tag is for paragraph-->
-                <p>Who poisoned Bhima during their younger years?</p>            
+                <p><h1 style="color:blue;">Who poisoned Bhima during their younger years?</h></p>            
             </div>     
-            
+            </style>
             <div id='Q1'>            
                 <!-- name field in input tag is same Q1 for all inputs so they form a group
                 . When they form a group selecting one deselects others automatically-->
                 <input type="radio" name="Q1" id="1A" value="A">
                 <label for="1A">A. Dushasana</label>
+</br>
                 <input type="radio" name="Q1" id="1B" value="B">
                 <label for="1B">B. Shakuni</label>
+</br>
                 <input type="radio" name="Q1" id="1C" value="C">
                 <label for="1C">C. Vikarna</label>
+</br>
                 <input type="radio" name="Q1" id="1D" value="D">
                 <label for="1D">D. Duryodhana</label>
             </div>
             <br/>
+
+</br>
+</br>
             <div>        
                 <button type="button" onclick="validateQ1()">Submit</button>
             </div>
@@ -44,7 +42,6 @@ div.a {
         <p id="result"></p>   
 <script defer src="./gmythjava.js"></script>        
         <a href="trial-q2-IM.html" class="next">Next &raquo;</a>
-  </div>
 
     </body>
 </html>
