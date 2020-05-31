@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>       
+        <title>GEOGRAPHY</title>
+    </head>
+  
+    <body>
+        <form>
+            <div>
+                <!--p tag is for paragraph-->
+                <p>Which sea has no coasts?</p>            
+            </div>     
+            
+            <div id='Q1'>            
+                <!-- name field in input tag is same Q1 for all inputs so they form a group
+                . When they form a group selecting one deselects others automatically-->
+                <input type="radio" name="Q1" id="1A" value="A">
+                <label for="1A">A. Gulf of Mexico</label>
+                <input type="radio" name="Q1" id="1B" value="B">
+                <label for="1B">B. Mediterranean Sea</label>
+                <input type="radio" name="Q1" id="1C" value="C">
+                <label for="1C">C. Sargaso Sea</label>
+                <input type="radio" name="Q1" id="1D" value="D">
+                <label for="1D">D. Dead Sea</label>
+            </div>
+            <br/>
+            <div>        
+                <button type="button" onclick="validateQ1()">Submit</button>
+            </div>
+        </form>
+        
+        <p id="result"></p>   
+<script defer src="./geoq3.js"></script>        
+        
+    </body>
+</html>
